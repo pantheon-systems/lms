@@ -1,0 +1,35 @@
+#header {
+    transition: all .2s ease;
+    background-color: #000;
+}
+.header-link {
+    color: #FFF;
+}
+a.header-link:hover, a.header-link:focus {
+  color: #FFF;  
+  text-decoration: underline;
+}
+h1 {
+    font-family: Tablet Gothic,Frutiger,Frutiger Linotype,Univers,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+}
+h2 {
+    font-family: Adelle,Constantia,Lucida Bright,Lucidabright,Lucida Serif,Lucida,DejaVu Serif,Bitstream Vera Serif,Liberation Serif,Georgia,serif;
+    font-weight: 400;
+    font-style: italic;
+    letter-spacing: -.2px;
+    color: #2c3539;
+    line-height: 1.4;
+ }
+
+    .sj-page-catalog-root #skilljar-content {
+background-image: url('https://pantheon.io/sites/default/files/slice-backgrounds/hero-learnpantheon_1.svg');
+background-size: cover; 
+background-position: center center;
+}
+.sj-page-catalog-root a.coursebox-container.course .coursebox-image {
+    background-color: #51acd5;
+}
+
+span#powered-by {
+    display: none;
+    }
