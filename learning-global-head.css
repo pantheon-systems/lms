@@ -5,10 +5,10 @@
     background-color: #000;
 }
 
-.header-link {
+.header-link, .header-link a {
     color: #FFF;
 }
-a.header-link:hover, a.header-link:focus {
+.header-link a:hover, .header-link a:focus {
   color: #FFF;  
   text-decoration: underline;
 }
