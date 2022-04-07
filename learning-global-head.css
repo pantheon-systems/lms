@@ -1,7 +1,10 @@
+/* begin header theming */
+
 #header {
     transition: all .2s ease;
     background-color: #000;
 }
+
 .header-link {
     color: #FFF;
 }
@@ -9,6 +12,231 @@ a.header-link:hover, a.header-link:focus {
   color: #FFF;  
   text-decoration: underline;
 }
+
+#header #header-right {
+  display: none;
+  right: 5px;
+  height: 100%;
+  text-align: left !important;
+}
+
+#header #header-right .header-link a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  position: relative;
+  text-align: left !important;
+  padding: 32px 10px;
+  line-height: 6.15385em;
+}
+@media only screen and (min-width:801px) {
+#header .header-right {
+  padding-right: 50px
+}
+#header .header-link {
+  position: relative;
+}
+#ep-footer .container {
+  display: inline-block;
+}
+.footer-address {
+  top: 10px;
+}
+#ep-footer p {
+  text-align: left;
+}
+}
+
+@media screen and (max-width:1169px) {
+#header #header-right>.header-link, #header #header-right>.headerheight {
+  display: none !important;
+}
+}
+.search-location-header_right #header-right .search-container {
+  padding-right: 0;
+  display: flex;
+  padding: 3px 5px;
+}
+.search-location-header_right #header-right .search-container .catalog-search-input-group {
+  padding-top: 3px;
+}
+.search-location-header_right #header-right .search-container .catalog-search-input-button {
+  float: left;
+  width: 28px;
+  background: #D5D5D5;
+  color: white;
+  font-size: 12px;
+  cursor: pointer;
+  height: 25px;
+  padding: 0px 7px;
+}
+
+@media only screen and (min-width:1170px) {
+.search-location-header_right #header-right .search-container {
+  display: table-cell
+}
+}
+.burger-menu {
+  position: relative;
+  top: -1px;
+  right: 0;
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  margin-right: 0
+}
+.burger-lines {
+  position: relative;
+  z-index: 1
+}
+.burger-lines.open .burger-line:first-child {
+  transform: translateY(8px) rotate(45deg)
+}
+.burger-lines.open .burger-line:nth-child(2) {
+  opacity: 0
+}
+.burger-lines.open .burger-line:nth-child(3) {
+  transform: translateY(-4px) rotate(-45deg)
+}
+.open .burger-line {
+  background-color: #fff !important;
+}
+.burger-line {
+  display: block!important;
+  width: 21px;
+  height: 2.17px;
+  background-color: #000;
+  margin: 5px 0;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  max-width: 35px;
+  transition: all .3s ease-in-out
+}
+.burger-menu-items {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  background-color: #000;
+  padding: 90px 40px 30px
+}
+.burger-menu-items .header-link {
+  padding-right: 0!important;
+  display: block;
+  line-height: 30px;
+}
+#header #header-right .burger-menu-items .header-link a {
+  padding: 10px;
+  line-height: 0;
+}
+#header #header-right .burger-menu-items .header-link a:hover {
+  background-color: transparent;
+}
+.burger-menu-items .headerheight {
+  display: block;
+  text-align: center
+}
+.burger-menu-items .headerheight .header-link {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 17px;
+  text-align: left;
+  width: 100%
+}
+.burger-menu-items .login-link {
+  margin-top: 30px
+}
+
+@media only screen and (min-width:480px) {
+.burger-menu-items {
+  padding-top: 30px
+}
+.burger-menu {
+  top: 26px;
+  right: 0;
+  padding: 0 10px;
+}
+}
+
+@media only screen and (max-width:767px) {
+.burger-menu {
+  top: 7px;
+  right: 0;
+  padding: 2px 5px;
+}
+#header .login-link {
+  width: 50%;
+}
+.search-location-header_right #header-right .search-container {
+  display: flex;
+  padding: 6px 0px 0 6px;
+  margin: 0;
+  right: 0;
+  background-color: #fff;
+}
+}
+.no-tags.search-location-header_right .burger {
+  display: none !important;
+}
+
+@media only screen and (min-width:1024px) {
+.burger-menu {
+  top: 25px;
+  right: 10px;
+  padding: 0 10px;
+}
+}
+
+@media screen and (max-width: 1000px) {
+#skilljar-content .top-row-grey {
+  padding: 1rem;
+}
+}
+
+@media screen and (max-width: 769px) {
+.sj-page-catalog-root .one-col-full {
+  padding: 1rem;
+  background-position: center center;
+}
+}
+
+@media only screen and (min-width:545px) {
+.burger-menu-items .header-link {
+  text-align: left
+}
+}
+
+@media only screen and (min-width:607px) {
+.burger-menu-items .header-link {
+  text-align: left
+}
+.burger-menu-items .headerheight .header-link {
+  width: 260px
+}
+}
+
+@media only screen and (min-width:1170px) {
+.burger-menu {
+  display: none
+}
+}
+.button, .button:hover {
+  background: linear-gradient(138.28deg, #00ad69, #4bc05b);
+  text-transform: uppercase;
+  border-radius: 0;
+  border: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 1.63px
+}
+.burger-menu button {
+  padding: 13px;
+  display: block;
+  margin-bottom: 10px
+}
+/* end header theming */
+
 h1 {
     font-family: Tablet Gothic,Frutiger,Frutiger Linotype,Univers,HelveticaNeue-Light,Helvetica Neue Light,Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
 }
@@ -21,7 +249,9 @@ h2 {
     line-height: 1.4;
  }
 
-    .sj-page-catalog-root #skilljar-content {
+/* catalog page theming */
+
+.sj-page-catalog-root #skilljar-content {
 background-image: url('https://pantheon.io/sites/default/files/slice-backgrounds/hero-learnpantheon_1.svg');
 background-size: cover; 
 background-position: center center;
@@ -30,6 +260,8 @@ background-position: center center;
     background-color: #51acd5;
 }
 
+/* begin footer theming */
 span#powered-by {
     display: none;
     }
+/* end footer theming */
